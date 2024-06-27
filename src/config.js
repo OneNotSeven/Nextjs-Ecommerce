@@ -1,1 +1,1 @@
-export const apiBaseUrl=process.env.NEXTJS_URL 
+export const apiBaseUrl=process.env.NEXTJS_URL || "http://localhost:3000"
