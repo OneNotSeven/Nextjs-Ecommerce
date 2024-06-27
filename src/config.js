@@ -1,1 +1,1 @@
-export const apiBaseUrl=process.env.NEXTJS_URL
+export const apiBaseUrl=toString(process.env.NEXTJS_URL)
