@@ -1,0 +1,25 @@
+/* 
+.listbtn:hover > .loginbtn{
+    display: block;
+}
+
+.loginbtn{
+    display: none;
+}
+.rotatar{
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-color: whitesmoke;
+    transform: rotate(45deg);
+}
+
+.profile{
+    display: none;
+}
+.profilehoverdiv.hover .profile{
+    display: block;
+} */
+/* html{
+ color-scheme: dark;
+} */

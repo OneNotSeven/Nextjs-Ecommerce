@@ -1,0 +1,9 @@
+.rotatar{
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 12px;
+    background-color: whitesmoke;
+    transform: rotate(45deg);
+}

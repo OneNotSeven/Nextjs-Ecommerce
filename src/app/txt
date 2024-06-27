@@ -1,0 +1,56 @@
+// {
+//     slug: 'laptops',
+//     name: 'Laptops',
+//     url: 'https://dummyjson.com/products/category/laptops'
+//   },
+//   {
+//     slug: 'mens-shirts',
+//     name: 'Mens Shirts',
+//     url: 'https://dummyjson.com/products/category/mens-shirts'
+//   },
+//   {
+//     slug: 'mens-shoes',
+//     name: 'Mens Shoes',
+//     url: 'https://dummyjson.com/products/category/mens-shoes'
+//   },
+//   {
+//     slug: 'mens-watches',
+//     name: 'Mens Watches',
+//     url: 'https://dummyjson.com/products/category/mens-watches'
+//   },
+//   {
+//     slug: 'mobile-accessories',
+//     name: 'Mobile Accessories',
+//     url: 'https://dummyjson.com/products/category/mobile-accessories'
+// },
+  
+// {
+//     slug: 'tablets',
+//     name: 'Tablets',
+//     url: 'https://dummyjson.com/products/category/tablets'
+//   },
+//   {
+//     slug: 'tops',
+//     name: 'Tops',
+//     url: 'https://dummyjson.com/products/category/tops'
+//   },
+//   {
+//     slug: 'vehicle',
+//     name: 'Vehicle',
+//     url: 'https://dummyjson.com/products/category/vehicle'
+//   },
+//   {
+//     slug: 'womens-bags',
+//     name: 'Womens Bags',
+//     url: 'https://dummyjson.com/products/category/womens-bags'
+//   },
+//   {
+//     slug: 'womens-dresses',
+//     name: 'Womens Dresses',
+//     url: 'https://dummyjson.com/products/category/womens-dresses'
+//   },
+//   {
+//     slug: 'womens-jewellery',
+//     name: 'Womens Jewellery',
+//     url: 'https://dummyjson.com/products/category/womens-jewellery'
+//   },

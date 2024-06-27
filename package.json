@@ -1,0 +1,37 @@
+{
+  "name": "ecommerce-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@nextui-org/listbox": "^2.1.19",
+    "bcrypt": "^5.1.1",
+    "formik": "^2.4.6",
+    "jose": "^5.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "next": "14.2.3",
+    "next-cloudinary": "^6.6.2",
+    "next-themes": "^0.3.0",
+    "nextjs-toploader": "^1.6.12",
+    "nodemailer": "^6.9.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-toastify": "^10.0.5",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
