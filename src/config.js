@@ -1,1 +1,1 @@
-export const apiBaseUrl="https://cryandbuy.vercel.app"
+export const apiBaseUrl="https://cryandbuy.netlify.app"
