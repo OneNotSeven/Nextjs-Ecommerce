@@ -19,7 +19,7 @@ export async function POST(req) {
    
     var auth_token = jwt.sign(
         { userId:schemaEmailVerify[0]._id,email:schemaEmailVerify[0].email},
-        toString(process.env.SECRET_TOKEN_KEY)
+        toString(process.env.NEXT_SECRET_TOKEN_KEY)
        );
        
        const responsed = NextResponse.json({ message: "verified",success: true }, { status: 200 });
@@ -40,7 +40,7 @@ var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: 'theflutebro@gmail.com',
-        pass: process.env.EMAIL_PASS
+        pass: process.env.NEXT_EMAIL_PASS
     }
 });
      
