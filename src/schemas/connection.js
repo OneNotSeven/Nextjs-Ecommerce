@@ -1,1 +1,1 @@
-export const dbData=toString(process.env.DB_Connect)
+export const dbData=process.env.DB_Connect
