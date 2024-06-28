@@ -1,1 +1,1 @@
-export const dbData=toString(process.env.NEXT_PUBLIC_DB_Connect)
+export const dbData=process.env.NEXT_DB_Connect
