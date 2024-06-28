@@ -31,7 +31,7 @@ export async function POST(request) {
         
         var auth_token = jwt.sign(
             { userid:objectIdAsString },
-            toString(process.env.SECRET_TOKEN_KEY)
+            toString(process.env.NEXT_SECRET_TOKEN_KEY)
           );
       
         // console.log("hey",objectIdAsString)
