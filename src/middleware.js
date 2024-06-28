@@ -11,7 +11,7 @@ export default async function middleware(req, res) {
     if (token) {
         const verified = await jwtVerify(
             token,
-            new TextEncoder().encode(toString(process.env.SECRET_TOKEN_KEY))
+            new TextEncoder().encode(toString(process.env.NEXT_SECRET_TOKEN_KEY))
         );
         userid=verified.payload.userid
     }
