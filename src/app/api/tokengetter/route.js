@@ -8,7 +8,7 @@ export function POST() {
     try {
     const token = cookies().get("authtoken")?.value
     // console.log("hgt:",token)
-    const secretKey = toString(process.env.SECRET_TOKEN_KEY);
+    const secretKey = toString(process.env.NEXT_SECRET_TOKEN_KEY);
     var decoded = jwt.verify(token, secretKey);
     // console.log(decoded)
 
