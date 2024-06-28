@@ -17,6 +17,7 @@ const SignUp = () => {
   const redirection=useRouter()
 
   const saveData = async () => {
+    console.log("prac",process.env.DB_Connect)
     try {
       if (Object.values(values).some(value=> value=="")) {
         toast.error("fill all details", {
